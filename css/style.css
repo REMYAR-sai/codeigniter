@@ -1,0 +1,101 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+	background-image:url(../img/home.jpg);
+	background-size:cover;
+	}
+.std{
+	background-image:url(../img/student.jpg);
+	background-size:cover;
+	}
+	.tch{
+	background-image:url(../img/teacher.jpg);
+	background-size:cover;
+	}
+	.tv{
+	background-image:url("../img/treg.jpg");
+	background-size:cover;
+	}
+	.sv{
+	background-image:url("../img/sreg.jpg");
+	background-size:cover;
+	}
+	.log{
+	background-image:url(../img/log.jpg);
+	background-size:cover;
+	}
+	.ar{
+	background-image:url(../img/apprej.jpg);
+	background-size:cover;
+	}
+	.not{
+	background-image:url(../img/not.jpg);
+	background-size:cover;
+	}
+	.notview{
+	background-image:url(../img/notview.jpg);
+	background-size:cover;
+	}
+	.notif{
+	background-image:url(../img/notif.jpg);
+	background-size:cover;
+	}
+	.pv{
+	background-image:url(../img/notif.jpg);
+	background-size:cover;
+	}
+  .menubar{
+	  background-color:black;
+	  text-align:center;
+	      }
+	.menubar ul{
+	  list-style:none;
+	  display:inline-flex;
+	  padding:10px;
+	         }
+	  .menubar ul li a{
+		  color:white;
+		  text-decoration:none;
+		  padding:10px;	 
+	    }
+	   .menubar ul li{
+		   padding:10px; 
+	       }
+	     a:hover{
+		  background-color:red;
+		  border-radius:10px;
+	  }
+	      .submenu{
+		  display:none;  
+	  }
+	        .menubar ul li:hover .submenu{
+		   
+		     display:block;
+		     position:absolute;
+		     background-color:black;
+		     color:white;
+		     margin-left:-25px;
+		     padding:10px;
+	   }
+	         .submenu ul{
+		       display:block;
+	   }
+	           .submenu ul li{
+		         border-bottom:2px solid #ff0000 ;
+		         border-radius:10px; 
+	   }
+	   
+		  div{
+			   padding:15px;
+			  text-align:center;
+			 
+			 
+		  }
+		  
